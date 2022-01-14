@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album</title>
+    <style>
+        .photo-album{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .photo-frame{
+            
+            width: 300px;
+            height: 300px;
+            border: 3px solid gray;
+            border-radius: 10px;
+            position: relative;
+            margin: 10px;
+        }
+        .photo img{
+            width: 100%;
+            border-radius: 10px;
+        }
+        .photo-detail{
+            display: none;
+            position: absolute;
+            width: 300px;
+            top: 0%;
+
+        }
+        .photo-detail h3{
+            background-color: black;
+            color: wheat;
+            text-align: center;
+        }
+        .photo-frame:hover .photo-detail{
+            display: block;
+            background-color: rgba(199, 196, 187, 0.514);
+        }
+    </style>
+</head>
+<body>
+    <h1>Animal Album</h1>
+    <section>
+        <h3>Tiger Album</h3>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/Tiger.jpg" alt="">
+
+                </div>
+                <div class="photo-detail">
+                    <h3>Tiger</h3>
+                    <p>Easily recognized by its coat of reddish-orange with dark stripes, the tiger is the largest wild cat in the world. On average the big cat weighs 450 pounds, about the same as eight ten-year-old kids. ... It stands three feet tall with teeth four inches long and claws as long as house keys.</p>
+
+                </div>
+                
+
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/lion.jpg" alt="">
+
+                </div>
+                <div class="photo-detail">
+                    <h3>Lion</h3>
+                    <p>Lions are the only cats that live in groups. A group, or pride, can be up to 30 lions, depending on how much food and water is available. ... While they're out looking for food, the males guard the pride's territory and their young. A lion's roar can be heard up to eight kilometres away..</p>
+
+                </div>
+                
+
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/cat.jpg" alt="">
+
+                </div>
+                <div class="photo-detail">
+                    <h3>Cat</h3>
+                    <p>Cats have flexible bodies and teeth adapted for hunting small animals such as mice and rats. A group of cats is called a clowder, a male cat is called a tom, a female cat is called a molly or queen while young cats are called kittens. ... On average cats live for around 12 to 15 years..</p>
+
+                </div>
+                
+
+             </div>
+             <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/dog.jpg" alt="">
+
+                 </div>
+                 <div class="photo-detail">
+                    <h3>Dog</h3>
+                    <p>Dog have superior hearing than humans, capable of hearing sounds at four times the distance. Dogs have a remarkable sense of smell, they are capable of differentiating odors in concentrations nearly 100 million times lower than humans can. The average life span for a dog is around 10 to 14 years..</p>
+
+                </div>
+                
+
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/monkey.jpg" alt="">
+
+                 </div>
+                 <div class="photo-detail">
+                    <h3>Monkey</h3>
+                    <p>Monkeys are divided into two different groups, Old World Monkeys and New World Monkeys. ... Monkeys are mostly omnivores and eat fruit, leaves, nuts and insects. All species of monkeys have opposable thumbs just like humans. Monkeys live both on the ground and in trees.</p>
+
+                </div>
+                
+
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/rabbits.jpg" alt="">
+
+                 </div>
+                 <div class="photo-detail">
+                    <h3>Rabbit</h3>
+                    <p>Rabbits are small, furry mammals with long ears, short fluffy tails, and strong, large hind legs. They have 2 pairs of sharp incisors (front teeth), one pair on top and one pair on the bottom. They also have 2 peg teeth behind the top incisors..</p>
+
+                </div>
+                
+
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/rat.jpg" alt="">
+
+                 </div>
+                 <div class="photo-detail">
+                    <h3>Rat</h3>
+                    <p>Rats are medium-sized rodents with a long tail. A group of rats is called a 'mischief'Rats are mainly nocturnal and live underground. ... They feed on the food we throw away and can spread diseases among humans, like the medieval Black Death, which was spread by fleas that lived on rats..</p>
+
+                </div>
+                
+
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/snake.jpg" alt="">
+
+                 </div>
+                 <div class="photo-detail">
+                    <h3>Snake</h3>
+                    <p>A snake is a reptile with a long, thin body but no legs. Some lizards are legless and look like snakes, however, most lizards have eyelids, and snakes do not. ... A snake's jaws are flexible and can open very wide, so snakes can tackle big prey. Snakes have two ways of making a kill..</p>
+
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+</body>
+</html>
